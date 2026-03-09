@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MetroCart</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="container top-inner">
+        <div class="top-left">
+            <span>Seller Centre</span> | 
+            <span>Start Selling</span> | 
+            <span>Download</span> | 
+            <span>Follow us on 
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </span>
+        </div>
+
+        <div class="top-right">
+            <span class="top-item"><i class="fas fa-bell"></i> Notifications</span>
+            <span class="top-item"><i class="fas fa-circle-question"></i> Help</span>
+            <span class="top-item"><i class="fas fa-globe"></i> English <i class="fas fa-chevron-down" style="font-size: 10px;"></i></span>
+            <div class="auth-links">
+                | <span>Sign Up</span> | <span>Login</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container header-inner">
+        
+        <div class="logo-group">
+            <div class="logo">
+                <img src="images/logo.png" alt="MetroCart">
+            </div>
+            <span class="logo-text">MetroCart</span>
+        </div>
+
+<div class="search-container">
+    <div class="search-box">
+        <input type="text" placeholder="Search for products...">
+        <button><i class="fas fa-search"></i></button>
+    </div>
+    
+    <div class="search-links">
+        <span>Cellphone Stand</span>
+        <span>Gateron Switch</span>
+        <span>Monitor Lamp Bar</span>
+        <span>Akko Coiled Cable</span>
+        <span>Safety Razor</span>
+        <span>Desk Riser Wood</span>
+    </div>
+</div>
+
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-slider">
+
+            <div class="slide active">
+                <img src="images/banner1.png">
+                <div class="overlay"></div>
+                <div class="hero-text">
+                    <h2>MEGA SALE 50% OFF</h2>
+                    <p>Discover the best deals on gadgets & fashion.</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="images/banner2.png">
+                <div class="overlay"></div>
+                <div class="hero-text">
+                    <h2>NEW ARRIVALS</h2>
+                    <p>Latest tech & lifestyle products just for you.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="images/banner3.png">
+                <div class="overlay"></div>
+                <div class="hero-text">
+                    <h2>FREE SHIPPING</h2>
+                    <p>On selected items nationwide.</p>
+                    <button>Browse Now</button>
+                </div>
+            </div>
+
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+
+            <div class="dots"></div>
+
+        </div>
+    </div>
+</section>
+
+<section class="categories-section">
+    <div class="container">
+        <h2>Categories</h2>
+        <div class="categories">
+        <div class="category"><img src="images/gadgets.png"><p>Gadgets</p></div>
+        <div class="category"><img src="images/fashion.png"><p>Fashion</p></div>
+        <div class="category"><img src="images/home.png"><p>Home</p></div>
+        <div class="category"><img src="images/shoes.png"><p>Shoes</p></div>
+        <div class="category"><img src="images/gaming.png"><p>Gaming</p></div>
+        </div>
+    </div>
+</section>
+    
+<section class="flash-sale">
+    <div class="container">
+        <h2>⚡ Flash Sale</h2>
+<div class="countdown">
+    <span>Ends In:</span>
+    <div id="timer">
+        <span id="hours">03</span> :
+        <span id="minutes">00</span> :
+        <span id="seconds">00</span>
+    </div>
+</div>
+
+        <div class="products">
+
+            <div class="product-card">
+                <span class="discount">-20%</span>
+                <img src="images/gaming-laptop.png" alt="laptop">
+                <h3>HP Victus 15.6" FHD 144Hz Gaming Laptop</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">1.2k+ sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱45,999</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <span class="discount">-10%</span>
+                <img src="images/monitor-lamp.png" alt="lamp">
+                <h3>Xiaomi Mi Computer Monitor Light Bar</h3>
+                <div class="rating">★★★★☆</div>
+                <div class="sold">856 sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱1,449</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <span class="discount">-15%</span>
+                <img src="images/keyboard.png" alt="Keyboard">
+                <h3>AULA F75 Mechanical Keyboard 75% Layout...</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">10K+ sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱2,543</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <span class="discount">-30%</span>
+                <img src="images/phone-holder.png" alt="phone stand">
+                <h3>BAVIN PS70 Steel Phone Holder 360 Rotation Metal...</h3>
+                <div class="rating">★★★★☆</div>
+                <div class="sold">10K+ sold</div>
+                <div class="badge-area">
+                <div class="selling-fast">Selling Fast</div>
+            </div>
+
+                <div class="price">₱55</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <span class="discount">-40%</span>
+                <img src="images/underware.png" alt="underwear">
+                <h3>Fashion Women Panties Lace Breathable underware</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">10K+ sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱215</div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <span class="discount">-30%</span>
+                <img src="images/gaming-mouse.png" alt="mouse">
+                <h3>ATK VXE Dragonfly R1 Series Lightweight Mouse...</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">5K+ sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱823</div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <span class="discount">-20%</span>
+                <img src="images/cleaning-cloth.png" alt="cleaning cloth">
+                <h3>Microfiber Dustproof Cleaning Cloth Camera...</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">10K+ sold</div>
+                <div class="badge-area">
+                <div class="selling-fast">Selling Fast</div>
+            </div>
+                
+                <div class="price">₱105</div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <span class="discount">-15%</span>
+                <img src="images/mattress.png" alt="bed">
+                <h3>DreamHug Foldable Mattress Thicken Velved...</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">7K+ sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱299</div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <span class="discount">-20%</span>
+                <img src="images/desk-lamp.png" alt="desk lamp">
+                <h3>Wireless Rechargable Desk Lamp, Portable LED Desk</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">8K+ sold</div>
+                <div class="badge-area">
+                <div class="selling-fast">Selling Fast</div>
+            </div>
+                
+                <div class="price">₱298</div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <span class="discount">-10%</span>
+                <img src="images/gaming-headphone.png" alt="headphone">
+                <h3>Samson SR850 Monitor Dynamic Headphones...</h3>
+                <div class="rating">★★★★★</div>
+                <div class="sold">1K+ sold</div>
+                <div class="badge-area"></div>
+                
+                <div class="price">₱1,299</div>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+               
+                <div class="see-more-container">
+                 <button class="see-more-btn">See More</button>
+             </div>
+         </div> 
+  </section>
+  
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            
+            <div class="footer-section">
+                <h3>Payment Methods</h3>
+                <div class="payment-wrapper">
+                    <img src="images/payments.png" alt="Payments">
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-wrapper">
+                    <a href="#" class="social-item"><i class="fab fa-facebook"></i> <span>Facebook</span></a>
+                    <a href="#" class="social-item"><i class="fab fa-instagram"></i> <span>Instagram</span></a>
+                    <a href="#" class="social-item"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
+                    <a href="#" class="social-item"><i class="fab fa-linkedin"></i> <span>LinkedIn</span></a>
+                </div>
+            </div>
+
+<div class="footer-section">
+    <h3>Download App</h3>
+    <div class="download-flex">
+        <img src="images/qrcode.png" class="qr" alt="QR Code">
+        <div class="app-stores">
+            <a href="your-app-store-url" target="_blank" rel="noopener noreferrer">
+                <img src="images/app-store.png" alt="Download on the App Store">
+            </a>
+            <a href="your-google-play-url" target="_blank" rel="noopener noreferrer">
+                <img src="images/google-play.png" alt="Get it on Google Play">
+            </a>
+            <a href="your-app-gallery-url" target="_blank" rel="noopener noreferrer">
+                <img src="images/app-gallery.png" alt="Explore it on AppGallery">
+            </a>
+        </div>
+    </div>
+</div>
+
+        </div> <div class="footer-bottom">
+            <div class="footer-left">© 2026 MetroCart. All Rights Reserved.</div>
+            <div class="footer-right">
+                <strong>Country & Region:</strong> Argentina | Singapore | Indonesia | Thailand | Malaysia | Vietnam | Philippines | Brazil | México | Taiwan
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
